@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hibernate-mapping>
+    <class name="com.hib.User" table="hello_user">
+        <id name="userId">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="username"></property>
+        <property name="createdBy"></property>
+    </class>
+</hibernate-mapping>
